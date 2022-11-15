@@ -1,0 +1,116 @@
+/* for paragraphs in the whole page */
+.p {
+  font-size: 1.7rem !important;
+}
+
+
+/* for finance cards that are funding and grants */
+.finance-section {
+  margin: 78px 0px 21px 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+/* funding pool card */
+.box1 {
+  margin-right: 43px;
+}
+
+
+/* for pitch to sections of event and event date box */
+.event-box {
+  width: 57%;
+  font-size: 1.7rem;
+}
+.event-box-p {
+  text-align: justify;
+  padding-right: 28px;
+}
+.event-box-btn {
+  background-color: #5a9edde0;
+  font-size: 1.7rem;
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 10%) 0px 20px 25px -5px,
+    rgb(0 0 0 / 4%) 0px 10px 10px -5px;
+}
+
+
+/* for login and signin see more section */
+.see-more {
+  padding: 20px;
+  font-size: 1.7rem;
+}
+
+
+/* event dates and details of pitch to section */
+.event-dates {
+  padding: 62px 15px 5px 15px;
+}
+
+.event-details-1 {
+  padding: 0px 0px 36px 0px;
+}
+.pitch-section {
+  display: flex;
+  margin-top: 4rem;
+}
+
+
+/* for heading Mentoring sessions and FAQ */
+.block-title {
+  font-size: 30px;
+  display: flex;
+  margin: revert;
+  font-weight: 500;
+  justify-content: center;
+}
+
+
+/* image cards of mentors */
+.program-view-mentor-profile img {
+  vertical-align: middle;
+  border-radius: inherit;
+  border: 6px solid #305a7ac2;
+  padding: 4px;
+}
+
+
+/* FAQ questions div tag */
+.faq-ques {
+  font-size: 22px;
+  margin: 0px 0px 0px 33px;
+}
+
+/* FAQ questions div tag */
+.faq-ans {
+  font-size: 17px;
+  margin: 5px 0px 19px 29px;
+}
+
+/* media queries for les than 720ox*/
+@media screen and (max-width: 720px) {
+  .pitch-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+  }
+  .finance-section {
+    margin: 78px 0px 21px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .event-box {
+    width: auto;
+    font-size: 1.7rem;
+  }
+  .box1 {
+    margin: 0px;
+  }
+  .fill-page {
+    width: 100%;
+  }
+  .block-title{
+    text-align: center;
+  }
+}
